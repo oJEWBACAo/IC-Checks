@@ -1,0 +1,65 @@
+﻿/* 
+   Murfreesboro Regional Soccer League style sheet 
+   Filename: styles.css
+
+   Author: Bradley Schreer
+   Date: 11/03/2021
+   HTML5 and CSS3 Illustrated Unit D, Independent Challenge 2
+ */
+ 
+/* reset styles */
+	article, aside, body, div, footer, header, h1, h2, p {
+		border: 0;
+		padding:0;
+		margin: 0;
+	}
+	
+/* body and page container */
+	.container {
+		max-width: 640px;
+		margin: auto;
+		border: 3px solid black;
+	}
+	
+/* main content */
+	article {
+		width: 55%;
+		float: right;
+		padding: 3%;
+	}
+	
+/* headings */
+	header {
+		text-align: center;
+		color: white;
+		background-color: green;
+		padding: 0.5em;
+	}
+
+/* sidebar */
+	aside {
+		background-color: lightgreen;
+		width: 35%;
+		float: left;
+		padding: 2%;
+	}
+
+	aside h2 {
+		margin: 0.4em 0;
+	}
+
+	aside p {
+		margin: 0.4em 0;
+	}
+	.description {
+		margin: 0 0 0 1em;
+	}
+		
+/* footer section */
+	footer {
+		color: white;
+		background-color: black;
+		text-align: right;
+		clear: both;
+		padding: 0.5em;
+	}
